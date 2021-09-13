@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: url("/Xypo_All_Images/images/background.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+.menu img {
+  width: 50px;
+  cursor: pointer;
+}
+h1 {
+  margin-top: 200px;
+  font-size: 36px;
+}
+p {
+  max-width: 300px;
+  margin: 50px 0;
+  color: gray;
+}
+.btn {
+  border: 1px solid rgb(201, 40, 93);
+  padding: 20px 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.socialMediaLinks {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 80px;
+}
+.socialMediaLinks img {
+  display: block;
+  text-align: center;
+  margin: 25px;
+  font-size: 50px;
+}
+.navLinks {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(218, 92, 140);
+}
+.navLinks li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.navLinks li {
+  list-style: none;
+  margin: 50px 30px;
+}
