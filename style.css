@@ -254,7 +254,9 @@ input {
   list-style: none;
   color: gray;
 }
-
+.footer-col-left {
+  padding: 50px;
+}
 .footer-col-right {
   flex-basis: 50%;
   display: flex;
@@ -356,5 +358,9 @@ input {
   .footer-col {
     display: flex;
     flex-direction: column;
+  }
+  .footer-col-left {
+    padding: 50px;
+    display: block;
   }
 }
