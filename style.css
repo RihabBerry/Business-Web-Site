@@ -199,3 +199,38 @@ p {
 .limiltess-left-col p {
   color: gray;
 }
+.row-contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+.col-right-contact {
+  flex-basis: 50%;
+}
+.col-right-contact img {
+  width: 100%;
+}
+.col-left-contact {
+  flex-basis: 50%;
+}
+.col-left-contact h1 {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+input {
+  border: 1px solid #f67c92;
+  display: block;
+  padding: 15px 100px;
+  margin: 10px;
+  outline: none;
+  margin-bottom: 35px;
+}
+.btn-contact.trial {
+  margin: 0 10px 0;
+  padding: 20px 40px;
+}
+.btn-contact.signup {
+  margin: 0 10px 0;
+  padding: 20px 50px;
+}
