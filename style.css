@@ -234,3 +234,44 @@ input {
   margin: 0 10px 0;
   padding: 20px 50px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-col-left {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-col-left h3 {
+  color: #f67c92;
+  margin-bottom: 25px;
+}
+.footer-col-left li {
+  list-style: none;
+  color: gray;
+}
+
+.footer-col-right {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.footer-col-right p {
+  margin: 50px;
+}
+
+.btn-footer {
+  margin: 10px;
+  padding: 50px;
+}
+.footer-logo {
+  width: 20px;
+  padding: 50px;
+}
+.box-footer {
+  display: flex;
+  flex-direction: column;
