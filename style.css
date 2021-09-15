@@ -82,3 +82,45 @@ p {
     font-size: 20px;
   }
 }
+.row-about {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col-left-about {
+  flex-basis: 50%;
+}
+.col-left-about img {
+  width: 100%;
+}
+
+.col-right-about {
+  flex-basis: 50%;
+}
+.col-right-about h1 {
+  text-align: right;
+  margin-bottom: 50px;
+}
+.col-right-about h2 {
+  text-align: end;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 50px;
+}
+.col-right-about p {
+  text-align: end;
+  color: gray;
+  margin-bottom: 50px;
+}
+.text-about {
+  margin-right: 100px;
+}
+.square {
+  height: 12px;
+  width: 10px;
+  background-color: #f67c92;
+}
+.text-about h3 {
+  color: gray;
+  text-align: right;
+}
