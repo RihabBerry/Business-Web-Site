@@ -275,3 +275,86 @@ input {
 .box-footer {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 700px) {
+  .home {
+    background-image: none;
+    padding: 0 50px;
+  }
+  .socialMediaLinks img {
+    margin: 15px;
+    width: 25px;
+  }
+  .btn {
+    padding: 10px 20px;
+  }
+  .row-about {
+    padding: 50px 0;
+  }
+  .col-left-about,
+  .col-right-about {
+    flex-basis: 100%;
+  }
+  .text-about {
+    margin-right: 50px;
+  }
+  .col-right-about h2 {
+    font-size: 20px;
+  }
+  .features-col {
+    flex-basis: 100%;
+  }
+  .row-features p {
+    text-align: center;
+  }
+  .courses {
+    padding: 20px;
+  }
+  .row-courses {
+    padding: 50px 0;
+  }
+  .course-col-right,
+  .course-col-left {
+    flex-basis: 100%;
+  }
+  .limiltess-left-col,
+  .limiltess-right-col {
+    flex-basis: 100%;
+  }
+  .row-courses img {
+    margin-top: 20px;
+  }
+  .btn-course {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .limitless-row {
+    padding: 0 50px;
+  }
+  .row-contact {
+    padding: 50px;
+  }
+  .col-right-contact,
+  .col-left-contact {
+    flex-basis: 100%;
+  }
+  .col-left-contact h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .btn-contact.signup {
+    padding: 10px 20px;
+  }
+  .btn-contact.trial {
+    padding: 10px 20px;
+  }
+  .footer-col-left,
+  .footer-col-right {
+    flex-basis: 100%;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
